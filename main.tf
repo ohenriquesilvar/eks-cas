@@ -61,7 +61,7 @@ module "eks" {
 
       instance_types = ["t3.medium"]
       min_size       = 1
-      max_size       = 3
+      max_size       = 6
       desired_size   = 1
 
       labels = {
@@ -74,7 +74,7 @@ module "eks" {
 
       instance_types = ["m5.large"]
       min_size       = 1
-      max_size       = 3
+      max_size       = 6
       desired_size   = 1
 
       labels = {
